@@ -70,7 +70,7 @@ return (
 
             <a 
                 className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full shadow-md outline-none focus:scale-110 hover:scale-110 active:scale-105 transition-all cursor-pointer border border-black/10 '
-                href='/CV.pdf' download>
+                href='/cv.pdf' download>
                 Download CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition'/>
             </a>
 
