@@ -75,7 +75,7 @@ return (
             </a>
 
             <a 
-                className=' bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full shadow-md focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition-all cursor-pointer border border-black/10 '
+                className=' bg-white p-4 text-gray-700 hover:text-[#0077b5] flex items-center gap-2 rounded-full shadow-md focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition-all cursor-pointer border border-black/10 '
                 href='https://www.linkedin.com/in/imene-belaid/' target='_blank' rel='noopener'
                 > <BsLinkedin/>
             </a>
