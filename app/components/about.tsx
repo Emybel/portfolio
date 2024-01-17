@@ -1,13 +1,17 @@
+'use client'
 import React from 'react'
+import SectionHeading from './section-heading';
+import { motion } from 'framer-motion';
 
 function About() {
   return (
-    <section
+    <motion.section
     className='mb-28 max-w-[50rem] text-center leading-7 sm:mb-40'
+    initial={{opacity:0, y:100}}
+    animate={{opacity:1, y:0}}
+    transition={{delay: 0.175}}
     >
-        <h2
-        className='text-3xl font-medium capitalize mb-8'
-        >About me</h2>
+        <SectionHeading>About me</SectionHeading>
 
         <p className='mb-3'>
         Armed with a degree in Computer Science, my journey veered from administrative roles to embrace the realm of programming. Choosing a coding bootcamp, I immersed myself in full-stack web development, reveling in the joy of problem-solving. The thrill of problem-solving is my driving force, that 'aha 💡' moment when the solution clicks is my ultimate satisfaction. My coding arsenal boasts React, Next.js, JavaScript, and TypeScript, accompanied by an affinity for Tailwind CSS, a touch of elegance in my projects.
@@ -18,7 +22,7 @@ function About() {
 
         </p>
 
-    </section>
+    </motion.section>
   )
 }
 export default About
