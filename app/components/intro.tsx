@@ -7,10 +7,16 @@ import Link from 'next/link';
 import {BsArrowRight, BsLinkedin} from 'react-icons/bs';
 import {HiDownload} from 'react-icons/hi';
 import {FaGithubSquare} from 'react-icons/fa';
+import { useSectionInView } from '@/lib/hooks';
 export default function Intro() {
 
+    const {ref} = useSectionInView('Home',0.5);
+
 return (
-    <section className='mb-28 max-w-[50rem] text-center sm:mb-0'>
+    <section 
+    ref={ref}
+    id='home'
+    className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-80'>
     
         <div className='flex items-center justify-center'>
             <div className='relative'>
@@ -53,7 +59,7 @@ return (
         >
             Hey there, <span className="font-bold">I'm Imane.</span> a budding{" "} <span className="font-bold">front-end developer</span> with a focus on  {" "} <span className="underline font-bold"> React, especially (Next.js)</span>. I love building{" "} <span className="font-bold">sleek and interactive{" "} </span> websites and applications to create engaging user experiences.
             
-        </motion.h1>
+        </motion.h1>    
 
         <motion.div 
             initial={{opacity:0, y:100}}
