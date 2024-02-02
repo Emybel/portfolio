@@ -22,6 +22,7 @@ export default function Experience() {
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
+              // make visible={true} instead of visible={InView} to fix temporarly the depmoyement error.
               visible={true}
               contentStyle={{
                 background:"#f3f4f6",
