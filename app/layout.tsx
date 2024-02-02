@@ -5,6 +5,7 @@ import { Toaster } from 'react-hot-toast';
 import Footer from './components/footer';
 import Header from './components/header';
 
+
 const inter = Inter({ subsets: ['latin'], display: 'swap', adjustFontFallback: false });
 
 export const metadata = {
