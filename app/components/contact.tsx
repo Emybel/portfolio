@@ -5,18 +5,17 @@ import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 import { sendEmail } from "@/actions/sendEmail";
-  import SubmitBtn from "./submit-btn";
+import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
 
 function Contact() {
   const { ref } = useSectionInView("Contact");
-  
 
   return (
     <motion.section
       id="contact"
       ref={ref}
-      className="mb-20 sm:mb-28 w-[min(100%, 40rem)] text-center"
+      className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
       initial={{
         opacity: 0,
       }}
@@ -33,9 +32,9 @@ function Contact() {
       <SectionHeading>Contact me</SectionHeading>
 
       <p className="text-gray-700 -mt-6  ">
-        Please contact me directly at{" "}
+        Please contact me directly via{" "}
         <a className="underline" href="mailto:belaidimane@gmail.com">
-          belaidimane@gmail.com
+          email
         </a>{" "}
         or through this form.
       </p>
@@ -43,14 +42,14 @@ function Contact() {
       <form
         className="mt-10 flex flex-col"
         action={async (FormData) => {
-          const {data, error} = await sendEmail(FormData);
+          const { data, error } = await sendEmail(FormData);
 
           if (error) {
-            toast.error(error)
+            toast.error(error);
             return;
           }
 
-          toast.success('Email sent succefully !')
+          toast.success("Email sent succefully !");
         }}
       >
         <input
@@ -69,7 +68,7 @@ function Contact() {
           maxLength={3000}
           placeholder="Your message"
         />
-        <SubmitBtn/>
+        <SubmitBtn />
       </form>
     </motion.section>
   );

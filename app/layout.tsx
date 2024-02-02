@@ -1,5 +1,5 @@
 import ActiveSectionContextProvider from '@/context/active-section-context'
-import Header from './components/Header'
+import Header from './components/header'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { Toaster } from 'react-hot-toast'
