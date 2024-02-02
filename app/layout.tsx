@@ -1,11 +1,11 @@
 import ActiveSectionContextProvider from '@/context/active-section-context';
-import Header from '@/app/components/Header';
 import './globals.css';
 import { Inter } from 'next/font/google';
 import { Toaster } from 'react-hot-toast';
 import Footer from './components/footer';
+import Header from './components/header';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ['latin'], display: 'swap', adjustFontFallback: false });
 
 export const metadata = {
   title: 'Imane Belaid | Personal Portfolio',
