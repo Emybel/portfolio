@@ -49,7 +49,7 @@ export const experiencesData = [
       description:
           "As an Odoo Support Specialist, my role involved collaborating closely with integrators to ensure seamless integration of Odoo. I conducted hands-on training sessions for cross-functional teams of 3-5 members, equipping them with in-depth knowledge of Odoo functionalities. Additionally, I played a key role in facilitating a smooth transition to the new system, providing ongoing support to users throughout the transitional phase.",
       icon: React.createElement(CgWorkAlt),
-      date: "2018 - 2020",
+      date: "2020 - 2022",
     },
     {
       title: "Administrative Assistant",
