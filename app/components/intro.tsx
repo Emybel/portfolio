@@ -93,7 +93,7 @@ export default function Intro() {
         </Link>
 
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full shadow-md outline-none focus:scale-110 hover:scale-110 active:scale-105 transition-all cursor-pointer borderBlack "
+          className="group bg-white dark:bg-white/10 px-7 py-3 flex items-center gap-2 rounded-full shadow-md outline-none focus:scale-110 hover:scale-110 active:scale-105 transition-all cursor-pointer borderBlack "
           href="/cv.pdf"
           download
         >
@@ -102,7 +102,7 @@ export default function Intro() {
         </a>
 
         <a
-          className=" bg-white p-4 text-gray-700 hover:text-[#0077b5] flex items-center gap-2 rounded-full shadow-md focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition-all cursor-pointer borderBlack "
+          className=" bg-white dark:bg-white/10 p-4 text-gray-700 dark:text-white/60 hover:text-[#0077b5] flex items-center gap-2 rounded-full shadow-md focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition-all cursor-pointer borderBlack "
           href="https://www.linkedin.com/in/imene-belaid/"
           target="_blank"
           rel="noopener"
@@ -111,7 +111,7 @@ export default function Intro() {
           <BsLinkedin />
         </a>
         <a
-          className=" bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full shadow-md focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition-all cursor-pointer borderBlack "
+          className=" bg-white dark:bg-white/10 p-4 text-gray-700 dark:text-white/60 flex items-center gap-2 text-[1.35rem] rounded-full shadow-md focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition-all cursor-pointer borderBlack "
           href="https://github.com/Emybel"
           target="_blank"
           rel="noopener"
