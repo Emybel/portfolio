@@ -24,8 +24,8 @@ function Project({ title, description, tags, imageUrl }: ProjectProps) {
       }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
-      <section className="group bg-gray-100 dark:bg-white/10 dark:hover:bg-white/20 max-w-[50rem] border-black/5 overflow-hidden sm:pr-8 relative sm:h-[22rem] rounded-lg drop-shadow-md group:even:pl-4 hover:bg-gray-200 transition">
-        <div className="pt-4 pb-8 px-5 sm:pl-10 sm:pr-2 sm:max-w-[50%] flex flex-col h-full group-even:ml-[26rem] dark:text-white">
+      <section className="group bg-gray-100 dark:bg-white/10 dark:hover:bg-white/20 max-w-[50rem] border-black/5 overflow-hidden sm:pr-8 relative sm:h-[22rem] rounded-lg drop-shadow-md sm:group:even:pl-4 hover:bg-gray-200 transition">
+        <div className="pt-4 pb-8 px-5 sm:pl-10 sm:pr-2 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[26rem] dark:text-white">
           <h3 className="text-2xl font-semibold">{title}</h3>
 
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70 text-sm">
@@ -47,7 +47,7 @@ function Project({ title, description, tags, imageUrl }: ProjectProps) {
           src={imageUrl}
           alt="Project I worked on"
           quality={95}
-          className="absolute top-8 -right-40 w-[30.25rem] rounded-t-lg shadow-2xl group-even:right-[initial] group-even:-left-40 transition group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-3 group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-3 group-hover:scale-[1.05] "
+          className="absolute hidden sm:block top-8 -right-40 w-[30.25rem] rounded-t-lg shadow-2xl group-even:right-[initial] group-even:-left-40 transition group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-3 group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-3 group-hover:scale-[1.05] "
         />
       </section>
     </motion.div>
