@@ -102,7 +102,7 @@ export default function Intro() {
         </a>
 
         <a
-          className=" bg-white dark:bg-white/10 p-4 text-gray-700 dark:text-white/60 hover:text-[#0077b5] flex items-center gap-2 rounded-full shadow-md focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition-all cursor-pointer borderBlack "
+          className=" bg-white dark:bg-white/10 p-4 text-gray-700 dark:text-white/60 hover:text-[#0077b5] dark:hover:text-[#17aefffc] flex items-center gap-2 rounded-full shadow-md focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition-all cursor-pointer borderBlack "
           href="https://www.linkedin.com/in/imene-belaid/"
           target="_blank"
           rel="noopener"
