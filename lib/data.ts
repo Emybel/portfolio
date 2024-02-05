@@ -36,6 +36,30 @@ export const links = [
 
 export const experiencesData = [
     {
+      title: "Graduated Recoded bootcamp",
+      location: "On line ",
+      description:
+          "I successfully completed a 5-month immersive coding bootcamp, dedicating over 400 hours to mastering JavaScript, ReactJS, next.js, HTML/CSS, Tailwind CSS, Bootstrap, and Git. Throughout the program, I co-created responsive web applications like Madaura, DzExpress, Cinepholie, and WonderTellers, demonstrating my ability to contribute effectively in dynamic development environments. You can explore the codebase and project details on my GitHub profile.",
+      icon: React.createElement(LuGraduationCap),
+      date: "2023",
+    },
+    {
+      title: "Odoo Functional Support",
+      location: "Algiers, Algeria",
+      description:
+          "As an Odoo Support Specialist, my role involved collaborating closely with integrators to ensure seamless integration of Odoo. I conducted hands-on training sessions for cross-functional teams of 3-5 members, equipping them with in-depth knowledge of Odoo functionalities. Additionally, I played a key role in facilitating a smooth transition to the new system, providing ongoing support to users throughout the transitional phase.",
+      icon: React.createElement(CgWorkAlt),
+      date: "2020 - 2022",
+    },
+    {
+      title: "Administrative Assistant",
+      location: "Algiers, Algeria",
+      description:
+        "As an administrative assistant, I efficiently managed office operations, including scheduling, correspondence, and maintaining organizational systems. I coordinated meetings, managed documents, and provided crucial support to ensure seamless day-to-day functioning, honing my organizational prowess and attention to detail.",
+      icon: React.createElement(CgWorkAlt),
+      date: "2018 - 2020",
+    },
+    {
         title: "Graduated Bs. Computer Sience",
         location: "Djelfa, Algeria",
         description:
@@ -43,30 +67,7 @@ export const experiencesData = [
         icon: React.createElement(LuGraduationCap),
         date: "2012 - 2015",
     },
-    {
-    title: "Administrative Assistant",
-    location: "Algiers, Algeria",
-    description:
-      "As an administrative assistant, I efficiently managed office operations, including scheduling, correspondence, and maintaining organizational systems. I coordinated meetings, managed documents, and provided crucial support to ensure seamless day-to-day functioning, honing my organizational prowess and attention to detail.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2018 - 2020",
-  },
-  {
-    title: "Odoo Functional Support",
-    location: "Algiers, Algeria",
-    description:
-        "As an Odoo Support Specialist, my role involved collaborating closely with integrators to ensure seamless integration of Odoo. I conducted hands-on training sessions for cross-functional teams of 3-5 members, equipping them with in-depth knowledge of Odoo functionalities. Additionally, I played a key role in facilitating a smooth transition to the new system, providing ongoing support to users throughout the transitional phase.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2018 - 2020",
-  },
-  {
-    title: "Graduated Recoded bootcamp",
-    location: "On line ",
-    description:
-        "I graduated after 6 months of studying Front-end dev.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2023",
-  },
+        
 ] as const;
 
 export const projectsData = [
