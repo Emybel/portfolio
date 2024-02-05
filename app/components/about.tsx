@@ -21,15 +21,30 @@ function About() {
         <SectionHeading>About me</SectionHeading>
 
         <p className='mb-3'>
-        Armed with a degree in Computer Science, my journey veered from administrative roles to embrace the realm of programming. Choosing a coding bootcamp, I immersed myself in full-stack web development, reveling in the joy of problem-solving. The thrill of problem-solving is my driving force, that 'aha 💡' moment when the solution clicks is my ultimate satisfaction. My coding arsenal boasts React, Next.js, JavaScript, and TypeScript, accompanied by an affinity for Tailwind CSS, a touch of elegance in my projects.
+        The click of the keyboard, the hum of the computer, and the magic of an idea turning into reality - that's the world of coding for me. It wasn't always like this, though. Once, I traded in code for administrative tasks, but the thrill of problem-solving never left me. Then, I took a leap and dived into a coding bootcamp, a whirlwind of late nights fueled by caffeine and the exhilaration of seeing lines of code morph into websites.
         </p>
 
-        <p>
-        In my perpetual pursuit of knowledge, I am drawn to the ever-expanding tech landscape. Currently seeking a full-time position as a software developer, I'm geared up to apply my problem-solving skills to impactful projects. Beyond the coding arena, my interests span a spectrum—from exploring the digital wonders to savoring captivating books, cooking up a storm, and plunging into the refreshing waters for a swim. Join me in this exciting narrative where tech meets creativity, and every line of code tells a story of innovation.
+        <p className='mb-3'>
+        They say every problem has a solution, and for me, that solution often involves code. Cracking the code, so to speak, and finding that elegant, efficient answer is what gets me going. Whether it's building sleek websites with React and Next.js, wielding the power of JavaScript and TypeScript, or adding a dash of style with Tailwind CSS, I approach coding with a creative problem-solver's mindset. And the learning never stops, because the tech world is an ever-evolving adventure.
 
+        </p>
+
+        <p className='mb-3'>
+        Right now, I'm always looking for new opportunities where I can put my skills to the test and create impactful projects. But coding isn't my only passion. When I'm not tapping away at the keyboard, I'm exploring the hidden corners of the internet, finding inspiration for new projects in the stories I devour, or letting the rhythm of cooking guide me to innovative solutions.
+        </p>
+
+        <p className='mb-3'>
+        Join me on this exciting journey where tech meets creativity, and every line of code becomes a story of innovation. Let's write the next chapter together! If you're looking for a passionate developer with a dash of creativity, let's chat!
         </p>
 
     </motion.section>
   )
 }
 export default About
+
+
+
+
+
+
+
